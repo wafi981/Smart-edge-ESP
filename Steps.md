@@ -41,4 +41,19 @@ chmod a+x /usr/local/bin/docker-compose
 
 Also install PyYAML before moving ahead.
 
-## Step 5: 
+## Step 5: Clone ESP:
+```  
+cd /opt
+git clone -b master --depth=1 https://github.com/intel/Edge-Software-Provisioner.git esp
+cd esp
+```
+Do not run build and run scipt. 
+
+## Step 6: Edit the existing conf/config.yml or copy conf/config.sample.yml to conf/config.yml:
+
+``` cp conf/config.sample.yml conf/config.yml ```
+See the changes in the config.yml
+
+## Step 7: Build and Run
+
+
