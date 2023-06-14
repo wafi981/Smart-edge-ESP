@@ -55,5 +55,11 @@ Do not run build and run scipt.
 See the changes in the config.yml
 
 ## Step 7: Build and Run
+``` ./build.sh
+     ./run.sh
+```
 
-
+## Step 8: Navigate to /root/pwek:
+``` 
+./pwek_aio_provision.py --config prov.yml --run-esp-for-usb-boot
+```
